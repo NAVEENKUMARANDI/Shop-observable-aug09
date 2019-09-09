@@ -1,0 +1,41 @@
+<h3>Product List</h3>
+
+<div class="product-item" *ngFor="let product of productList">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-6">
+                {{ product.id }}
+            </div>
+
+            <div class="col-sm-5"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-1">
+            </div>
+
+            <div class="col-sm-6">
+                {{ product.name }}
+            </div>
+
+            <div class="col-sm-5"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-1">
+            </div>
+
+            <div class="col-sm-6">
+                {{ product.price }}
+            </div>
+
+            <div class="col-sm-5"></div>
+        </div>
+    </div>
+</div>
